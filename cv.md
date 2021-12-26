@@ -1,13 +1,8 @@
-***
-
 # Ivan Kashirin
-***
 
 ## Junior Frontend Developer
-***
 
 ## Contacts
-***
 
 * Location: **Voronezh, Russia**
 * Tel: **+7(951)560-29-52**
@@ -24,12 +19,12 @@
 * **[Codewars](https://www.codewars.com/users/frontend200tb)**
 
 ## Summary
-***
 
 I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day I am engaged in self-education. I study frontend tools and technologies that are not yet familiar to me. My hobby is the practice of foreign languages and sports. I like doing powerlifting in the gym. My best benchpress is 155kg. I have five children and I love spending time with them and watch them grow up.
 
-## Skills
 ***
+
+## Skills
 
 + HTML
 + CSS
@@ -38,7 +33,6 @@ I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day
 + Sass
 
 ## Code example
-***
 
 **HTML**
 ```
@@ -95,15 +89,7 @@ block main
       include includes/player/player.pug
 ```
 
-## Education
-***
-
-Voronezh State Technical University
-
-Faculty of Radio Engineering and Electronics
-
 ## Projects
-***
 
 * **[Start](https://frontend200tb.github.io/start/)**
 * **[Online Radio Serbia](https://frontend200tb.github.io/radio/)**
@@ -111,8 +97,16 @@ Faculty of Radio Engineering and Electronics
 * **[resume](https://frontend200tb.github.io/resume/)**
 * **[freepsd](https://frontend200tb.github.io/freepsd/)**
 
-## Online Courses
 ***
+
+## Education
+
+Voronezh State Technical University
+
+Faculty of Radio Engineering and Electronics
+
+
+## Online Courses
 
 1. [Yandex] HTML, CSS, JavaScript вводный курс 2021
 2. [webshake] [Артем Ивашкевич] Курс HTML для начинающих 2017
@@ -132,7 +126,6 @@ Faculty of Radio Engineering and Electronics
 16. [code-basics] CSS для начинающих 2021
 
 ## Video Courses
-***
 
 1. [Hexlet Рахим Давлеткалиев] Язык программирования JavaScript
 2. [CS50 Harvard] Основы программирования
@@ -147,10 +140,9 @@ Faculty of Radio Engineering and Electronics
 11. [Udemy Наиль Алишев] Git. Полный курс для начинающих
 12. [ITVDN Анна Маргина] Основы использования Git
 
-
+***
 
 ## Languages
-***
 
 - English B1
 - Russian native
