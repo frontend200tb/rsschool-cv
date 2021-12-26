@@ -17,8 +17,11 @@
 * **[Telegram](https://t.me/Frontend200tb)**
 * **[Instagram](https://www.instagram.com/frontend200tb/)**
 * **[GitHub](https://github.com/frontend200tb)**
+* **[Codepen](https://codepen.io/ivan200tb/)**
+* **[Youtube](https://www.youtube.com/channel/UCxQkWhcXUes0CdxvJH3B7Ug)**
 * **[Facebook](https://www.facebook.com/frontend200tb)**
 * **[Twitter](https://twitter.com/frontend200tb)**
+* **[Codewars](https://www.codewars.com/users/frontend200tb)**
 
 ## Summary
 ***
@@ -102,8 +105,49 @@ Faculty of Radio Engineering and Electronics
 ## Projects
 ***
 
-## Courses
+* **[Start](https://frontend200tb.github.io/start/)**
+* **[Online Radio Serbia](https://frontend200tb.github.io/radio/)**
+* **[Frontent200tb](https://frontend200tb.github.io/200tb/frontend/frontend.html)**
+* **[resume](https://frontend200tb.github.io/resume/)**
+* **[freepsd](https://frontend200tb.github.io/freepsd/)**
+
+## Online Courses
 ***
+
+1. [Yandex] HTML, CSS, JavaScript вводный курс 2021
+2. [webshake] [Артем Ивашкевич] Курс HTML для начинающих 2017
+3. [stepik] Веб разработка для начинающих HTML CSS 2021
+4. [stepik] [Антон Холин] JavaScript для начинающих 2021
+5. [Codeliber] Learn HTML 2021
+6. [Codeliber] Learn CSS 2021
+7. [Codeliber] Learn JavaScript 2021
+8. [Codeliber] Learn Python 2021
+9. [Нетология] [Владимир Языков] Основы верстки сайта 2021
+10. [Нетология] [Дмитрий Бронских] Первые шаги в JavaScript 2021
+11. [Нетология] [Дмитрий Демидов] Python-разработка для начинающих 2021
+12. [Нетология] Профессии в программировании 2021
+13. [html academy] Знакомство с веб-разработкой
+14. [html academy] Знакомство с HTML и CSS
+15. [code-basics] HTML для начинающих 2021
+16. [code-basics] CSS для начинающих 2021
+
+## Video Courses
+***
+
+1. [Hexlet Рахим Давлеткалиев] Язык программирования JavaScript
+2. [CS50 Harvard] Основы программирования
+3. [ITVDN Александр Петрик] Видео курс HTML CSS
+4. [Нетология] HTML-верстка Инструменты и приемы профессиональной front-end разработки
+5. [Яндекс-Академия] Школа Вебмастеров
+6. [HTML Academy] Базовый HTML и CSS
+7. [Brainscloud Дмитрий Валак] HTML и CSS для начинающих
+8. [Brainscloud Дмитрий Валак] Быстрая и комфортная верстка сайтов
+9. [Skillbox Антон Рыбаков] Figma 3.0 для дизайнера
+10. [Udemy Михаил Непомнящий] Шаблонизатор Pug_jade - современный ускоритель для HTML
+11. [Udemy Наиль Алишев] Git. Полный курс для начинающих
+12. [ITVDN Анна Маргина] Основы использования Git
+
+
 
 ## Languages
 ***
