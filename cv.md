@@ -1,14 +1,8 @@
 # Ivan Kashirin
 
-***
-
 ## Junior Frontend Developer
 
-***
-
 ## Contacts
-
-***
 
 * Location: **Voronezh, Russia**
 * Tel: **+7(951)560-29-52**
@@ -25,8 +19,6 @@
 * **[Codewars](https://www.codewars.com/users/frontend200tb)**
 
 ## Summary
-
-***
 
 I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day I am engaged in self-education. I study frontend tools and technologies that are not yet familiar to me. My hobby is the practice of foreign languages and sports. I like doing powerlifting in the gym. My best benchpress is 155kg. I have five children and I love spending time with them and watch them grow up.
 
@@ -116,8 +108,6 @@ Faculty of Radio Engineering and Electronics
 
 ## Online Courses
 
-***
-
 1. [Yandex] HTML, CSS, JavaScript вводный курс 2021
 2. [webshake] [Артем Ивашкевич] Курс HTML для начинающих 2017
 3. [stepik] Веб разработка для начинающих HTML CSS 2021
@@ -136,8 +126,6 @@ Faculty of Radio Engineering and Electronics
 16. [code-basics] CSS для начинающих 2021
 
 ## Video Courses
-
-***
 
 1. [Hexlet Рахим Давлеткалиев] Язык программирования JavaScript
 2. [CS50 Harvard] Основы программирования
