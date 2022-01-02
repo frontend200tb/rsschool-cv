@@ -15,6 +15,7 @@ body {
   margin: 0; 
   padding: 0;
   min-height: 100vh;
+  background-color: #ece284;
 }
 
 .container {
@@ -22,7 +23,8 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.nav {
+  border-radius: 10px;
   background-color: #8b6f20;
 }
 
@@ -49,13 +51,40 @@ body {
 }
 
 .main {
-  background-image: url(../assets/img/new-year192.jpg);
+
 }
 
-.hr {
-  width: 90%;
-  height: 10px;
-  border: 10px solid #8b6f20;
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 30%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #8b6f20;
+}
+
+.center {
+  width: 5%;
+}
+
+.right {
+  width: 65%;
+  border-radius: 10px;
+  /*background-image: url(../assets/img/new-year192.jpg);*/
+}
+
+.hr-left {
+  width: 100%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.hr-right {
+  width: 100%;
+  border: 5px solid #8b6f20;
   border-radius: 5px;
 }
 
@@ -63,51 +92,56 @@ body {
   padding: 10px;
 }
 
-#profile {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.myphoto {
+  width: 100%;
 }
 
 .profile-title {
   margin: 0;
   padding: 0;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .profile-text {
   margin: 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
+h2 {
+  text-transform: uppercase;
+}
 .contacts-list {
   list-style: none;
 }
 
 .contacts-item {
   font-size: 20px;
-  color: #222;
+  color: #fff;
 }
 
 .contacts-item a {
   text-decoration: none;
   font-size: 20px;
-  color: #222;
+  color: #fff;
 }
 
 .footer {
   padding: 10px;
-  background-color: #8b6f20;
 }
 
 .footer-links {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+  border-radius: 10px;
+  background-color: #8b6f20;
 }
 
 .footer-link {
