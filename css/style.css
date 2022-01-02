@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0; 
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #8b6f20;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  transition: .3s;
+  background-color: #a89766;
+  cursor: pointer;
+}
+
+.main {
+  background-image: url(../assets/img/new-year192.jpg);
+}
+
+.hr {
+  width: 90%;
+  height: 10px;
+  border: 10px solid #8b6f20;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 10px;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-title {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.profile-text {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  font-size: 20px;
+  color: #222;
+}
+
+.contacts-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #222;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #8b6f20;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-link {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
