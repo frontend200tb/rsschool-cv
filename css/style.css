@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0; 
+  padding: 0;
+  min-height: 100vh;
+  background-color: #ece284;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container-bg {
+  border-radius: 10px;
+  background-color: #8b6f20;
+}
+
+.header {
+  margin: 0 5px 10px 5px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  transition: .3s;
+  background-color: #a89766;
+  cursor: pointer;
+}
+
+.main {
+  margin: 0 5px 0 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 30%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #8b6f20;
+}
+
+.right {
+  padding-left: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.hr-left {
+  width: 100%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.hr-right {
+  width: 100%;
+  border: 5px solid #8b6f20;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 10px;
+}
+
+.myphoto {
+  width: 100%;
+}
+
+.profile-title {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.profile-text {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  margin-left: -30px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.contacts-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts-item a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+.skills-item {
+  line-height: 30px;
+}
+
+.summary {
+  line-height: 30px;
+}
+
+.pre {
+  background-color: #f0e9ab;  
+}
+
+.projects-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #8b6f20;  
+}
+
+.projects-link:hover {
+  text-decoration: none;
+  font-weight: 400;
+  color: #8b6f20;  
+}
+
+.footer {
+  margin: 10px 5px 0 5px;
+}
+
+.footer-links {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-link {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 800px) {
+
+  .profile-title {
+    font-size: 24px;
+  }
+
+  .profile-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 580px) {
+
+  html {
+    font-size: 14px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .profile-title {
+    font-size: 18px;
+  }
+
+  .profile-text {
+    font-size: 14px;
+  }
+
+  pre {
+    font-size: 12px;    
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+}
