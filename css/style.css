@@ -16,6 +16,7 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #ece284;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -50,10 +51,6 @@ body {
   cursor: pointer;
 }
 
-.main {
-
-}
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -66,14 +63,10 @@ body {
   background-color: #8b6f20;
 }
 
-.center {
-  width: 5%;
-}
-
 .right {
-  width: 65%;
+  padding-left: 10px;
+  width: 70%;
   border-radius: 10px;
-  /*background-image: url(../assets/img/new-year192.jpg);*/
 }
 
 .hr-left {
@@ -100,7 +93,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -119,14 +113,40 @@ h2 {
 }
 
 .contacts-item {
-  font-size: 20px;
+  margin-left: -30px;
+  line-height: 30px;
   color: #fff;
 }
 
 .contacts-item a {
   text-decoration: none;
-  font-size: 20px;
   color: #fff;
+}
+
+.contacts-item a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+.skills-item {
+  line-height: 30px;
+}
+
+pre {
+  background-color: #f0e9ab;  
+}
+
+.projects-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #8b6f20;  
+}
+
+.projects-link:hover {
+  text-decoration: none;
+  font-weight: 400;
+  color: #8b6f20;  
 }
 
 .footer {
@@ -146,7 +166,41 @@ h2 {
 
 .footer-link {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   color: #000;
+}
+
+@media (max-width: 800px) {
+
+  .profile-title {
+    font-size: 24px;
+  }
+
+  .profile-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  html {
+    font-size: 14px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .profile-title {
+    font-size: 18px;
+  }
+
+  .profile-text {
+    font-size: 14px;
+  }
+
+  pre {
+    font-size: 12px;    
+  }
+
 }
