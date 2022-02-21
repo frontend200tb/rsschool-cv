@@ -224,6 +224,16 @@ MAIN RIGHT
   flex-wrap: wrap;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.project-img {
+  width: 240px;
+}
 .projects-link {
   text-decoration: none;
   color: var(--dark);
