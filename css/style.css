@@ -18,6 +18,7 @@ html {
 
 .page {
   --light: #f0e8a3;
+  --middle: #80e4a6;
   --dark: #644e10;
   display: flex;
   flex-direction: column;
@@ -34,16 +35,16 @@ CONTAINER
   margin: 0 auto;
 }
 
-.container-bg {
-  border-radius: 10px;
-  background-color: var(--dark);
-}
-
 /***********************
 HEADER
 ***********************/
 .header {
   margin: 0 5px 10px 5px;
+}
+
+.nav {
+  border-radius: 10px;
+  background-color: var(--dark);
 }
 
 .nav-list {
@@ -85,7 +86,7 @@ MAIN
   margin: 0 5px 0 5px;
 }
 
-.main-container {
+.main-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -204,16 +205,23 @@ MAIN RIGHT
 
 .pre {
   margin: 5px 0;
-  padding: 5px 0;
+  padding: 10px;
   font-size: 1rem;
   border-radius: 10px;
-  background-color: #84e6e9;
+  background-color: var(--middle);
 }
 
 @media (max-width: 780px) {
   .pre {
     font-size: 12px;
   }
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .projects-link {
@@ -240,6 +248,8 @@ FOOTER
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+  border-radius: 10px;
+  background-color: var(--dark);
 }
 
 .footer-github {
@@ -278,6 +288,8 @@ FOOTER
   filter: invert(89%) sepia(35%) saturate(322%) hue-rotate(3deg) brightness(95%)
     contrast(100%);
 }
+
+
 /***********************
 SOCIAL ICONS
 ***********************/
