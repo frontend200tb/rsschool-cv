@@ -1,4 +1,4 @@
-# 2022 Иван Каширин CV Реальный проект, выполненный в школе RS School
+# 2022 Иван Каширин - CV RS School Javascript Frontend
 
 https://frontend200tb.github.io/rsschool-cv/
 
