@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +14,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/favicon.ico">
 </head>
-
 <body>
-
   <div class="page">
-
-
     <header class="header">
       <div class="container">
 
@@ -49,8 +44,8 @@
           <a href="https://www.youtube.com/@ivan-kashirin" title="Youtube" target="_blank"><i class="social__icon social__icon_yt"></i></a>
           <a href="https://www.youtube.com/@ivan200kg" title="Youtube" target="_blank"><i class="social__icon social__icon_yt"></i></a>
 
-        </div> <!-- /social -->
-      </div> <!-- container -->
+        </div>
+      </div>
     </header>
 
 
@@ -143,35 +138,35 @@
             <section class="section" id="code">
               <h2 class="section-title">Code example</h2>
               <h3>JavaScript</h3>
-              <pre class="pre">
-async function getImage() {
-  event.preventDefault();
-  while (gallery.firstChild) {
-    gallery.removeChild(gallery.firstChild);
-  }   
-  const response = await fetch(urlImg);
-  const data = await response.json();
-  console.log('data', data);
-  displayImg(data);
-}
-              </pre>
+              <div class="pre">
+                <code>async function getImage() {
+                <br>&nbsp;&nbsp;event.preventDefault();
+                <br>&nbsp;&nbsp;while (gallery.firstChild) {
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;gallery.removeChild(gallery.firstChild);
+                <br>&nbsp;&nbsp;}   
+                <br>&nbsp;&nbsp;const response = await fetch(urlImg);
+                <br>&nbsp;&nbsp;const data = await response.json();
+                <br>&nbsp;&nbsp;console.log('data', data);
+                <br>&nbsp;&nbsp;displayImg(data);
+                <br>}</code>
+              </div>
 
 
               <h3>Pug</h3>
-              <pre class="pre">
-extends extends/base.pug
-
-block main
-  aside
-    include includes/aside-radio.pug
-    +aside-radio('Online Radio')
-
-  section.content
-    h1 Online radio Serbia
-    hr
-    article.player
-      include includes/player/player.pug
-            </pre>
+              <div class="pre">
+                <code>extends extends/base.pug
+                <br>
+                <br>block main
+                <br>&nbsp;&nbsp;aside
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;include includes/aside-radio.pug
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;+aside-radio('Online Radio')
+                <br>
+                <br>&nbsp;&nbsp;section.content
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;h1 Online radio Serbia
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;hr
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;article.player
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include includes/player/player.pug</code>
+              </div>
               <hr class="hr-right">
             </section>
 
@@ -421,10 +416,8 @@ block main
                 <li>[Udemy] Git. Full course for beginners</li>
                 <li>[ITVDN] Basics using Git</li>
               </ol>
-
             </section>
           </div>
-
         </div>
       </div>
     </main>
@@ -442,10 +435,8 @@ block main
         </div>
       </div>
     </footer>
-
   </div>
 
   <script src="js/index.js"></script>
 </body>
-
 </html>
