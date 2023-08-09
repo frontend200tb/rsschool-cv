@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
@@ -17,9 +17,11 @@ html {
 }
 
 .page {
-  --light: #f0e8a3;
-  --middle: #80e4a6;
-  --dark: #644e10;
+  --light: #fff;
+  --light-middle: #BCB5E9;
+  --middle: #00377A;
+  --dark: #222;
+  --circle: #91E2C2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -39,12 +41,8 @@ CONTAINER
 HEADER
 ***********************/
 .header {
-  margin: 0 5px 10px 5px;
-}
-
-.nav {
-  border-radius: 10px;
-  background-color: var(--dark);
+  margin: 0;
+  background-color: var(--middle);
 }
 
 .nav-list {
@@ -60,6 +58,7 @@ HEADER
 .nav-link {
   padding: 0 20px;
   font-size: 18px;
+  font-weight: 700;
   line-height: 50px;
   text-decoration: none;
   color: var(--light);
@@ -68,9 +67,9 @@ HEADER
 }
 
 .nav-link:hover {
-  transition: 0.3s;
-  color: var(--dark);
+  color: var(--middle);
   background-color: var(--light);
+  transition: all 0.5s;
 }
 
 @media (max-width: 580px) {
@@ -80,10 +79,70 @@ HEADER
 }
 
 /***********************
+PROFILE
+***********************/
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+  height: 180px;
+  border-radius: 20px;
+  background-color: var(--circle);
+}
+
+.myphoto {
+  width: 220px;
+  border: 6px solid var(--middle);
+  border-radius: 50%;
+  position: relative;
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.myphoto:hover {
+  transform: translate(0, 0);
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.profile-header {
+}
+
+.profile-title {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-align: center;
+  color: var(--middle);
+  text-transform: uppercase;
+}
+
+.profile-text {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-align: center;
+  color: var(--middle);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--middle);
+}
+
+.profile__line {
+  margin: 20px;
+  height: 5px;
+  background-color: var(--middle);
+}
+
+/***********************
 MAIN
 ***********************/
 .main {
-  margin: 0 5px 0 5px;
+  background-color: var(--light);
 }
 
 .main-content {
@@ -93,23 +152,28 @@ MAIN
   flex-wrap: wrap;
 }
 
-.left {
-  width: 320px;
-  color: var(--light);
-  border-radius: 10px;
-  background-color: var(--dark);
+.section {
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
-.right {
-  width: calc(100% - 320px);
-  min-width: 320px;
-  padding-left: 10px;
-  border-radius: 10px;
+.section-title {
+  margin-bottom: 20px;
+}
+
+.section-title span {
+  border-bottom: 5px solid var(--middle);
 }
 
 /***********************
 MAIN LEFT
 ***********************/
+.left {
+  width: 320px;
+  color: var(--dark);
+  border-radius: 10px;
+}
+
 .hr-left {
   margin: 10px 0;
   width: 100%;
@@ -128,29 +192,6 @@ ol {
   margin: 10px 0 10px 30px;
 }
 
-.section {
-  padding: 10px;
-}
-
-.myphoto {
-  width: 100%;
-}
-
-.profile-title {
-  margin: 0;
-  padding: 0;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
-
-.profile-text {
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
-  text-transform: uppercase;
-}
 
 h2 {
   text-transform: uppercase;
@@ -168,35 +209,60 @@ h2 {
 
 .contacts-item {
   line-height: 30px;
-  color: var(--light);
+}
+
+.contacts-item i {
+  color: var(--middle);
 }
 
 .contacts-item a {
   text-decoration: none;
-  color: var(--light);
+  color: var(--dark);
 }
 
 .contacts-item a:hover {
   text-decoration: none;
-  font-weight: 700;
-  color: #fff;
+  color: var(--middle);
 }
 
-.skills-item {
-  margin-left: 30px;
-  line-height: 30px;
+.skills-item,
+.lang-item,
+.card,
+.online-courses-list li,
+.video-courses-list li {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+  list-style-type: none;
 }
 
-.lang-item {
-  margin-left: 30px;
-  line-height: 30px;
+.skills-item:before,
+.lang-item:before,
+.card:before,
+.online-courses-list li:before,
+.video-courses-list li:before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid var(--circle);
 }
+
 
 /***********************
 MAIN RIGHT
 ***********************/
 .right {
+  width: calc(100% - 320px);
+  min-width: 320px;
+  padding-left: 10px;
   color: var(--dark);
+  border-radius: 10px;
 }
 
 .summary {
@@ -208,7 +274,7 @@ MAIN RIGHT
   padding: 10px;
   font-size: 1rem;
   border-radius: 10px;
-  background-color: var(--middle);
+  background-color: var(--circle);
 }
 
 @media (max-width: 780px) {
@@ -217,38 +283,26 @@ MAIN RIGHT
   }
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin: 10px 0;
-}
-
-.project-img {
-  width: 240px;
-}
 .projects-link {
   text-decoration: none;
   color: var(--dark);
 }
 
 .projects-link:hover {
-  text-decoration: none;
-  font-weight: 700;
+  color: var(--middle);
+}
+
+.online-courses-list,
+.video-courses-list {
+
 }
 
 /***********************
 FOOTER
 ***********************/
 .footer {
-  margin: 10px 5px 0 5px;
+  margin: 0;
+  background-color: var(--middle);
 }
 
 .footer-content {
@@ -258,29 +312,28 @@ FOOTER
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  border-radius: 10px;
-  background-color: var(--dark);
 }
 
 .footer-github {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.5s;
+  padding: 0 20px;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
-  color: #000;
+  color: var(--light);
+  border-radius: 20px;
 }
 
 .footer-github:hover {
-  color: var(--light);
+  color: var(--middle);
+  background-color: var(--light);
+  transition: all 0.5s;
 }
 
-.footer-link {
+.footer-year {
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
-  color: #000;
+  color: var(--light);
 }
 
 .footer-logo {

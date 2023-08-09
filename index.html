@@ -13,9 +13,11 @@
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/favicon.ico">
+  <script src="js/fontawesome.js"></script>
 </head>
 <body>
   <div class="page">
+
     <header class="header">
       <div class="container">
 
@@ -32,54 +34,69 @@
           </ul>
         </nav>
 
-        <div class="social" id="social">
-          <a href="https://vk.com/benchpress250" title="ВКонтакте" target="_blank"><span class="social__icon social__icon_vk"></span></a>
-          <a href="https://wa.me/79507504115" title="WhatsApp" target="_blank"><span class="social__icon social__icon_wa"></span></a>
-          <a href="https://t.me/Frontend200tb" title="Telegram" target="_blank"><span class="social__icon social__icon_tg"></span></a>
-          <a href="https://github.com/frontend200tb" title="GitHub" target="_blank"><span class="social__icon social__icon_github"></span></a>
-          <a href="https://codepen.io/ivan200tb/" title="Codepen" target="_blank"><span class="social__icon social__icon_cp"></span></a>
-          <a href="https://www.codewars.com/users/frontend200tb" title="Codewars" target="_blank"><span class="social__icon social__icon_cw"></span></a>
-          <a href="https://replit.com/@frontend200tb" title="Repl.it" target="_blank"><span class="social__icon social__icon_replit"></span></a>
-          <a href="https://www.youtube.com/@ivan-kashirin" title="Youtube" target="_blank"><span class="social__icon social__icon_yt"></span></a>
-          <a href="https://www.youtube.com/@ivan200kg" title="Youtube" target="_blank"><span class="social__icon social__icon_yt"></span></a>
-        </div>
-
       </div>
     </header>
 
-
     <main class="main">
       <div class="container">
+
+        <section class="profile" id="profile">
+
+          <div class="profile-photo">
+            <img class="myphoto" src="assets/img/myphoto.jpg" alt="photo Ivan Kashirin">
+          </div>
+
+          <div class="profile-header">
+            <h1 class="profile-title">Ivan Kashirin</h1>
+            <p class="profile-text">Javascript Frontend Developer</p>
+
+            <div class="social" id="social">
+              <a href="https://vk.com/benchpress250" title="ВКонтакте" target="_blank"><span class="social__icon social__icon_vk"></span></a>
+              <a href="https://wa.me/79507504115" title="WhatsApp" target="_blank"><span class="social__icon social__icon_wa"></span></a>
+              <a href="https://t.me/Frontend200tb" title="Telegram" target="_blank"><span class="social__icon social__icon_tg"></span></a>
+              <a href="https://github.com/frontend200tb" title="GitHub" target="_blank"><span class="social__icon social__icon_github"></span></a>
+              <a href="https://codepen.io/ivan200tb/" title="Codepen" target="_blank"><span class="social__icon social__icon_cp"></span></a>
+              <a href="https://www.codewars.com/users/frontend200tb" title="Codewars" target="_blank"><span class="social__icon social__icon_cw"></span></a>
+              <a href="https://replit.com/@frontend200tb" title="Repl.it" target="_blank"><span class="social__icon social__icon_replit"></span></a>
+              <a href="https://www.youtube.com/@ivan-kashirin" title="Youtube" target="_blank"><span class="social__icon social__icon_yt"></span></a>
+              <a href="https://www.youtube.com/@ivan200kg" title="Youtube" target="_blank"><span class="social__icon social__icon_yt"></span></a>
+            </div>
+        
+          </div>
+        </section>
+
+        <div class="profile__line"></div>
+
         <div class="main-content">
           <div class="left">
-
-
-            <section class="section" id="profile">
-              <div class="profile-photo">
-                <img class="myphoto" src="assets/img/myphoto.jpg" alt="photo Ivan Kashirin">
-              </div>
-              <div class="profile-header">
-                <h1 class="profile-title">Ivan Kashirin</h1>
-                <p class="profile-text">Javascript Frontend Developer</p>
-              </div>
-              <hr class="hr-left">
-            </section>
-
-
             <section class="section" id="contacts">
-              <h2 class="section-title">Contacts</h2>
+              <h2 class="section-title">
+                <span>Contacts</span>
+              </h2>
               <ul class="contacts-list">
                 <li class="contacts-item">
+                  <i class="fas fa-map-marker-alt"></i>
                   Location: Voronezh, Russia
                 </li>
                 <li class="contacts-item">
+                  <i class="fa-solid fa-phone"></i>
                   Tel: <a href="tel:+79507504115">+7&nbsp;(950)&nbsp;750&#8209;41&#8209;15</a>
                 </li>
                 <li class="contacts-item">
+                  <i class="fa-solid fa-envelope"></i>
                   E-mail: <a href="mailto:frontend200tb@mail.ru">frontend200tb@mail.ru</a>
                 </li>
                 <li class="contacts-item">
+                  <i class="fa-brands fa-discord"></i>
                   Discord: frontend200tb
+                </li>
+                <li class="contacts-item">
+                  <i class="fa-brands fa-github"></i>
+                  Github: <a href="https://github.com/frontend200tb"  target="_blank"> frontend200tb</a>
+                </li>
+                <li class="contacts-item">
+                  <i class="fa-brands fa-telegram"></i>
+                  Telegram: <a href="https://t.me/Frontend200tb"  target="_blank"> frontend200tb</a>
                 </li>
               </ul>
               <hr class="hr-left">
@@ -87,20 +104,27 @@
 
 
             <section class="section" id="skills">
-              <h2 class="section-title">Skills</h2>
+              <h2 class="section-title">
+                <span>Skills</span>
+              </h2>
               <ul>
                 <li class="skills-item">HTML</li>
                 <li class="skills-item">CSS</li>
                 <li class="skills-item">JavaScript</li>
                 <li class="skills-item">Pug</li>
                 <li class="skills-item">Sass</li>
+                <li class="skills-item">Gulp</li>
+                <li class="skills-item">Webpack</li>
+                <li class="skills-item">Typescript</li>
               </ul>
               <hr class="hr-left">
             </section>
 
 
             <section class="section" id="education">
-              <h2 class="section-title">Education</h2>
+              <h2 class="section-title">
+                <span>Education</span>
+              </h2>
               <p>Voronezh State Technical University</p>
               <p>Faculty of Radio Engineering and Electronics</p>
               <hr class="hr-left">
@@ -108,7 +132,9 @@
 
 
             <section class="section" id="languages">
-              <h2 class="section-title">Languages</h2>
+              <h2 class="section-title">
+                <span>Languages</span>
+              </h2>
               <ul>
                 <li class="lang-item">English B1</li>
                 <li class="lang-item">Russian native</li>
@@ -118,24 +144,165 @@
                 <li class="lang-item">... and some more</li>
               </ul>
             </section>
+
+            <section class="section" id="projects">
+              <h2 class="section-title">
+                <span>Projects</span>
+              </h2>
+              <h3>RS School projects</h3>
+
+              <ul class="projects">
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/portfolio"
+                    target="_blank">portfolio</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/eco-sounds"
+                    target="_blank">eco-sounds</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/audio-player"
+                    target="_blank">audio-player</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/custom-video"
+                    target="_blank">custom-video</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/random-jokes"
+                    target="_blank">random-jokes</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/image-gallery"
+                    target="_blank">image-gallery</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/movie-app"
+                    target="_blank">movie-app</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/tic-tac-toe"
+                    target="_blank">tic-tac-toe</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/memory"
+                    target="_blank">memory</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/random-game"
+                    target="_blank">random-game</a>
+                </li>
+              </ul>
+
+              <h3>Training projects</h3>
+
+              <ul class="projects">
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/webdev" target="_blank">webdev</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/newyork/" target="_blank">newyork</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/freepsd/" target="_blank">freepsd</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/mogo/" target="_blank">mogo</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/coffee/" target="_blank">coffee</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/yummy/" target="_blank">yummy</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/js30drumkit/"
+                    target="_blank">drumkit</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/js30clock/" target="_blank">clock</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/aquatic/" target="_blank">aquatic</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/portland/" target="_blank">portland</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/brewery/" target="_blank">brewery</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/gloevk/" target="_blank">gloevk</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/choocetravel/"
+                    target="_blank">choocetravel</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/explorecalifornia/"
+                    target="_blank">explore california</a>
+                </li>
+
+                <li class="card">
+                  <a class="projects-link" href="https://frontend200tb.github.io/kinomonster/"
+                    target="_blank">kinomonster</a>
+                </li>
+
+              </ul>
+            </section>
+
           </div>
 
 
           <div class="right">
             <section class="section" id="summary">
-              <h2 class="section-title">Summary</h2>
-              <p class="summary">I am Javascript Frontend Developer. My main road is Junior --- Middle --- Senior.
-                I study online courses and work with my projects to improve my knowledge of javascript.
-                I look at news and articles about new technologies in the frontend to keep up to date.
-                My hobby is the practice of foreign languages and hard work in the gym.
-                I love powerlifting and my best benchpress is 155kg.
-                I love my family with five children. We all like our dogs labrador and pug.</p>
-              <hr class="hr-right">
+              <h2 class="section-title">
+                <span>Summary</span>
+              </h2>
+              <p class="summary">Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area. 
+                As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.
+                I am therefore currently looking for a job or an internship as a front-end developer.</p>
             </section>
 
 
             <section class="section" id="code">
-              <h2 class="section-title">Code example</h2>
+              <h2 class="section-title">
+                <span>Code example</span>
+              </h2>
               <h3>JavaScript</h3>
               <div class="pre">
                 <code>async function getImage() {
@@ -166,221 +333,16 @@
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;article.player
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include includes/player/player.pug</code>
               </div>
-              <hr class="hr-right">
             </section>
 
 
-            <section class="section" id="projects">
-              <h2 class="section-title">Projects</h2>
-              <div class="projects">
-                <div class="card">
-                  <img class="project-img" src="assets/img/radio.png" alt="radio">
-
-                  <a class="projects-link"
-                    href="https://frontend200tb.github.io/radio/">frontend200tb.github.io/radio</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/200tb.png" alt="200tb">
-
-                  <a class="projects-link"
-                    href="https://frontend200tb.github.io/200tb/">frontend200tb.github.io/200tb</a>
-                </div>
-
-              </div>
-
-              <h3>RS School projects</h3>
-
-              <div class="projects">
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/portfolio2.jpg" alt="portfolio">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/portfolio"
-                    target="_blank">portfolio</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/eco-sounds.jpg" alt="eco-sounds">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/eco-sounds"
-                    target="_blank">eco-sounds</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/audio-player.jpg" alt="audio-player">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/audio-player"
-                    target="_blank">audio-player</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/custom-video.jpg" alt="custom-video">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/custom-video"
-                    target="_blank">custom-video</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/random-jokes.jpg" alt="random-jokes">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/random-jokes"
-                    target="_blank">random-jokes</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/image-gallery.jpg" alt="image-gallery">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/image-gallery"
-                    target="_blank">image-gallery</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/movie-app.jpg" alt="movie-app">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/movie-app"
-                    target="_blank">movie-app</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/tic-tac-toe.jpg" alt="tic-tac-toe">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/tic-tac-toe"
-                    target="_blank">tic-tac-toe</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/memory.jpg" alt="memory">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/memory"
-                    target="_blank">memory</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/random-game.jpg" alt="random-game">
-
-                  <a class="projects-link"
-                    href="https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/random-game"
-                    target="_blank">random-game</a>
-                </div>
-              </div>
-
-              <h3>Training projects</h3>
-
-              <div class="projects">
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/webdev.jpg" alt="webdev">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/webdev" target="_blank">webdev</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/newyork.jpg" alt="newyork">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/newyork/" target="_blank">newyork</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/freepsd.jpg" alt="freepsd">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/freepsd/" target="_blank">freepsd</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/mogo.jpg" alt="mogo">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/mogo/" target="_blank">mogo</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/coffee.jpg" alt="coffee">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/coffee/" target="_blank">coffee</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/yummy.jpg" alt="yummy">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/yummy/" target="_blank">yummy</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/drumkit.jpg" alt="drumkit">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/js30drumkit/"
-                    target="_blank">drumkit</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/clock.jpg" alt="clock">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/js30clock/" target="_blank">clock</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/aquatic.jpg" alt="aquatic">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/aquatic/" target="_blank">aquatic</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/portland.jpg" alt="portland">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/portland/" target="_blank">portland</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/brewery.jpg" alt="brewery">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/brewery/" target="_blank">brewery</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/gloevk.jpg" alt="gloevk">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/gloevk/" target="_blank">gloevk</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/choocetravel.jpg" alt="choocetravel">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/choocetravel/"
-                    target="_blank">choocetravel</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/california.jpg" alt="california">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/explorecalifornia/"
-                    target="_blank">explore california</a>
-                </div>
-
-                <div class="card">
-                  <img class="project-img" src="assets/img/kinomonster.jpg" alt="kinomonster">
-
-                  <a class="projects-link" href="https://frontend200tb.github.io/kinomonster/"
-                    target="_blank">kinomonster</a>
-                </div>
-
-              </div>
-
-              <hr class="hr-right">
-            </section>
 
 
             <section class="section" id="courses">
-              <h2 class="section-title">Online Courses</h2>
-              <ol>
+              <h2 class="section-title">
+                <span>Online Courses</span>
+              </h2>
+              <ul class="online-courses-list">
                 <li>[Yandex] HTML, CSS, JavaScript 2021</li>
                 <li>[webshake] Course HTML for beginners 2017</li>
                 <li>[stepik] Web development for beginners HTML CSS 2021</li>
@@ -398,10 +360,12 @@
                 <li>[code-basics] HTML for beginners 2021</li>
                 <li>[code-basics] CSS for beginners 2021</li>
                 <li>[code-basics] JavaScript for beginners 2021</li>
-              </ol>
+              </ul>
 
-              <h2 class="section-title">Video Courses</h2>
-              <ol>
+              <h2 class="section-title">
+                <span>Video Courses</span>
+              </h2>
+              <ul class="video-courses-list">
                 <li>[CS50 Harvard] Computer Science</li>
                 <li>[Hexlet] JavaScript</li>
                 <li>[ITVDN] Video course HTML CSS</li>
@@ -414,7 +378,7 @@
                 <li>[Udemy] Pug_jade - preprocessor for HTML</li>
                 <li>[Udemy] Git. Full course for beginners</li>
                 <li>[ITVDN] Basics using Git</li>
-              </ol>
+              </ul>
             </section>
           </div>
         </div>
@@ -428,7 +392,7 @@
           <a class="footer-github" href="https://github.com/frontend200tb" title="frontend200tb"
             target="_blank">frontend200tb</a>
 
-          <span class="footer-link">2022-2023</span>
+          <span class="footer-year">2022-2023</span>
 
           <a href="https://rs.school/js-stage0/" title="Rolling Scopes School" target="_blank"><span class="footer-logo"></span></a>
         </div>

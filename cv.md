@@ -20,7 +20,9 @@
 
 ## Summary
 
-I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day I am engaged in self-education. I study frontend tools and technologies that are not yet familiar to me. My hobby is the practice of foreign languages and sports. I like doing powerlifting in the gym. My best benchpress is 155kg. I have five children and I love spending time with them and watch them grow up.
+Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area. 
+As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.
+I am therefore currently looking for a job or an internship as a front-end developer.
 
 ***
 
