@@ -16,6 +16,10 @@ html {
   }
 }
 
+h3 {
+  margin: 10px 0;
+}
+
 .page {
   --light: #fff;
   --light-middle: #BCB5E9;
@@ -87,9 +91,16 @@ PROFILE
   justify-content: space-around;
   align-items: center;
   margin: 50px 0;
-  height: 180px;
+  height: 200px;
   border-radius: 20px;
   background-color: var(--circle);
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    height: 370px;
+  }
 }
 
 .myphoto {
@@ -253,6 +264,54 @@ h2 {
   border: 5px solid var(--circle);
 }
 
+/***********************
+CODE
+***********************/
+.pre {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+@media (max-width: 780px) {
+  .pre {
+    font-size: 12px;
+  }
+}
+
+.pre .angle {
+  color: olive;
+}
+
+.pre .tag {
+  color: blue;
+}
+
+.pre .attr {
+  color: green;
+}
+
+.pre .val {
+  color: brown;
+}
+
+.pre .txt {
+  color: #222;
+}
+
+.pre .fig {
+  color: #D4AC0D;
+}
+
+.pre .mark {
+  color: #5DADE2;
+}
+
+/***********************
+/ CODE
+***********************/
 
 /***********************
 MAIN RIGHT
@@ -269,19 +328,6 @@ MAIN RIGHT
   line-height: 30px;
 }
 
-.pre {
-  margin: 5px 0;
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 10px;
-  background-color: var(--circle);
-}
-
-@media (max-width: 780px) {
-  .pre {
-    font-size: 12px;
-  }
-}
 
 .projects-link {
   text-decoration: none;
@@ -290,11 +336,6 @@ MAIN RIGHT
 
 .projects-link:hover {
   color: var(--middle);
-}
-
-.online-courses-list,
-.video-courses-list {
-
 }
 
 /***********************
