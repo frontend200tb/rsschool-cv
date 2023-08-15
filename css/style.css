@@ -16,6 +16,15 @@ html {
   }
 }
 
+a.link,
+a.link:visited {
+  color: #222;
+}
+
+a.link:hover {
+  color: #65bc54;
+}
+
 h3 {
   margin: 10px 0;
 }
@@ -185,24 +194,9 @@ MAIN LEFT
   border-radius: 10px;
 }
 
-.hr-left {
-  margin: 10px 0;
-  width: 100%;
-  border: 5px solid var(--light);
-  border-radius: 5px;
-}
-
-.hr-right {
-  margin: 10px 0;
-  width: 100%;
-  border: 5px solid var(--dark);
-  border-radius: 5px;
-}
-
 ol {
   margin: 10px 0 10px 30px;
 }
-
 
 h2 {
   text-transform: uppercase;
