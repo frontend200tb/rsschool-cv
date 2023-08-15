@@ -5,22 +5,22 @@
 ## Contacts
 
 * Location: **Voronezh, Russia**
-* Tel: **+7(951)560-29-52**
+* Tel: **+7(950)750-41-15**
 * E-mail: **frontend200tb@gmail.com**
-* **[WhatsApp](https://wa.me/79507658158)**
 * **[VK](https://vk.com/benchpress250)**
+* **[WhatsApp](https://wa.me/79507658158)**
 * **[Telegram](https://t.me/Frontend200tb)**
-* **[Instagram](https://www.instagram.com/frontend200tb/)**
 * **[GitHub](https://github.com/frontend200tb)**
 * **[Codepen](https://codepen.io/ivan200tb/)**
-* **[Youtube](https://www.youtube.com/channel/UCxQkWhcXUes0CdxvJH3B7Ug)**
-* **[Facebook](https://www.facebook.com/frontend200tb)**
-* **[Twitter](https://twitter.com/frontend200tb)**
 * **[Codewars](https://www.codewars.com/users/frontend200tb)**
+* **[Youtube](https://www.youtube.com/@ivan-kashirin)**
+* **[Youtube](https://www.youtube.com/@ivan200kg)**
 
 ## Summary
 
-I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day I am engaged in self-education. I study frontend tools and technologies that are not yet familiar to me. My hobby is the practice of foreign languages and sports. I like doing powerlifting in the gym. My best benchpress is 155kg. I have five children and I love spending time with them and watch them grow up.
+Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area. 
+As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.
+I am therefore currently looking for a job or an internship as a front-end developer.
 
 ***
 
@@ -31,6 +31,9 @@ I am Junior Frontend Developer. My goal is Junior -> Middle -> Senior. Every day
 + JavaScript
 + Pug
 + Sass
++ Gulp
++ Webpack
++ Typescript
 
 ## Code example
 
@@ -91,11 +94,16 @@ block main
 
 ## Projects
 
-* **[Start](https://frontend200tb.github.io/start/)**
+* **[portfolio](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/portfolio)**
 * **[Online Radio Serbia](https://frontend200tb.github.io/radio/)**
-* **[Frontent200tb](https://frontend200tb.github.io/200tb/frontend/frontend.html)**
-* **[resume](https://frontend200tb.github.io/resume/)**
-* **[freepsd](https://frontend200tb.github.io/freepsd/)**
+* **[Frontent200tb](https://frontend200tb.github.io/200tb/index.html)**
+* **[eco-sounds](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/eco-sounds)**
+* **[audio-player](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/audio-player)**
+* **[custom-video](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/custom-video)**
+* **[random-jokes](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/random-jokes)**
+* **[image-gallery](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/image-gallery)**
+* **[tic-tac-toe](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/tic-tac-toe)**
+* **[memory](https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/memory)**
 
 ***
 
