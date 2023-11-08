@@ -88,6 +88,27 @@ function updateUser( id: number, update: Partial<User>) {
 }
 ```
 
+**C# .NET**
+```
+using System;
+namespace dsr1 {
+  class Program {
+    static void Main(string[] args) {
+      int[,] square = {{1,2},{11,12}};
+      int sum = Sum(square);
+      Console.WriteLine(sum);
+    }
+    public static int Sum(int[,] args) {
+      int res = 0;
+      foreach(int i in args) {
+        res += i;
+      }
+      return res;
+    }
+  }
+}
+```
+
 ## Projects
 
 * **[Library](https://frontend200tb.github.io/rsschool2023pre/library/)**

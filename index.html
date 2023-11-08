@@ -366,6 +366,44 @@
               </code>
           </div>
 
+          <h3>C# .NET</h3>
+          <div class="pre">
+            <code>
+            <span class="ctag">using</span> <span class="fig">System;</span>
+            <br><span class="ctag">namespace</span> <span class="fig">dsr {</span>
+            <br>&nbsp;
+            <span class="ctag">class</span> <span class="fig">Program {</span>
+            <br>&nbsp;&nbsp;&nbsp;
+            <span class="ctag">static void</span> <span class="tag">Main</span><span class="ctag">(string[]</span> <span class="fig">args) {</span>    
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="ctag">int[,]</span> <span class="val">square</span> <span class="fig">= {{1,2},{11,12}};</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="ctag">int</span> <span class="val">sum</span> <span class="tag">= Sum</span><span class="val">(square);</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fig">Console.</span><span class="tag">WriteLine</span><span class="val">(sum);</span>
+            <br>&nbsp;&nbsp;&nbsp;
+            <span class="fig">}</span>
+            <br>&nbsp;&nbsp;&nbsp;
+            <span class="ctag">public static int</span> <span class="tag">Sum</span><span class="ctag">(int[,]</span> <span class="val">args) {</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="ctag">int</span> <span class="val">res</span> <span class="fig">= 0;</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="ctag">foreach(int</span> <span class="val">i</span> <span class="ctag">in</span> <span class="val">args) {</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="val">res</span> <span class="ctag">+=</span> <span class="val">i;</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="val">}</span>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="ctag">return</span> <span class="val">res;</span>
+            <br>&nbsp;&nbsp;&nbsp;
+            <span class="val">}</span>
+            <br>&nbsp;
+            <span class="fig">}</span>
+            <br>
+            <span class="fig">}</span>
+            </code>
+          </div>
+
         </section>
 
         <section class="section" id="courses">

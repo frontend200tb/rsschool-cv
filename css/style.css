@@ -287,6 +287,10 @@ CODE
   color: blue;
 }
 
+.pre .ctag {
+  color: #A354DE;
+}
+
 .pre .attr {
   color: green;
 }
