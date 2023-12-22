@@ -16,6 +16,10 @@ html {
   }
 }
 
+.none {
+  display: none;
+}
+
 a.link,
 a.link:visited {
   color: #222;
@@ -281,6 +285,10 @@ CODE
 
 .pre .tag {
   color: blue;
+}
+
+.pre .ctag {
+  color: #A354DE;
 }
 
 .pre .attr {
