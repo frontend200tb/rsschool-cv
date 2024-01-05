@@ -18,7 +18,7 @@
 
 ## Summary
 
-Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area. 
+Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area.
 As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.
 I am therefore currently looking for a job or an internship as a front-end developer.
 
@@ -94,7 +94,7 @@ using System;
 namespace dsr1 {
   class Program {
     static void Main(string[] args) {
-      int[,] square = {{1,2},{11,12}};
+      int[,] square = { {1,2}, {11,12} };
       int sum = Sum(square);
       Console.WriteLine(sum);
     }
