@@ -112,9 +112,11 @@ namespace dsr1 {
 ## Projects
 
 * **[Math](https://frontend200tb.github.io/math/)**
+* **[Coffee House](https://frontend200tb.github.io/coffee-house/)**
+* **[Burgers](https://frontend200tb.github.io/burgers/)**
 * **[Library](https://frontend200tb.github.io/rsschool2023pre/library/)**
-* **[Portfolio Alexa Rise](https://frontend200tb.github.io/rsschool2022pre/portfolio/)**
 * **[Shelter](https://frontend200tb.github.io/rsschool2022q1/shelter/pages/main/)**
+* **[Portfolio Alexa Rise](https://frontend200tb.github.io/rsschool2022pre/portfolio/)**
 * **[Scooter](https://frontend200tb.github.io/scooter/)**
 * **[eco-sounds](https://frontend200tb.github.io/rs2022-eco-sounds/)**
 * **[audio-player](https://frontend200tb.github.io/rsschool2022pre/audio-player/)**
@@ -134,8 +136,9 @@ Faculty of Radio Engineering and Electronics
 
 ## Courses
 
-* **[RSSchool JavaScript/Front-end 2022 Pre-school](https://rs.school/js-stage0/)**
-* **[RSSchool JavaScript/Front-end 2023 Pre-school](https://rs.school/js-stage0/)**
+* **[RSSchool JavaScript/Front-end 2022 Pre-school](https://rs.school/courses/javascript-preschool-ru)**
+* **[RSSchool JavaScript/Front-end 2023 Pre-school](https://rs.school/courses/javascript-preschool-ru)**
+* **[RSSchool JavaScript/Front-end 2023](https://rs.school/courses/javascript-ru)**
 * **[DSR .NET Scho­ol 2023](https://ru.dsr-corporation.com/student/courses/dotnet-school/)**
 
 ***
