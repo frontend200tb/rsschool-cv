@@ -18,7 +18,7 @@
 
 ## Summary
 
-Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area. 
+Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. Working on my home projects as a front-end developer, I gained experience of working in this area.
 As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.
 I am therefore currently looking for a job or an internship as a front-end developer.
 
@@ -94,7 +94,7 @@ using System;
 namespace dsr1 {
   class Program {
     static void Main(string[] args) {
-      int[,] square = {{1,2},{11,12}};
+      int[,] square = { {1,2}, {11,12} };
       int sum = Sum(square);
       Console.WriteLine(sum);
     }
@@ -111,9 +111,12 @@ namespace dsr1 {
 
 ## Projects
 
+* **[Math](https://frontend200tb.github.io/math/)**
+* **[Coffee House](https://frontend200tb.github.io/coffee-house/)**
+* **[Burgers](https://frontend200tb.github.io/burgers/)**
 * **[Library](https://frontend200tb.github.io/rsschool2023pre/library/)**
-* **[Portfolio Alexa Rise](https://frontend200tb.github.io/rsschool2022pre/portfolio/)**
 * **[Shelter](https://frontend200tb.github.io/rsschool2022q1/shelter/pages/main/)**
+* **[Portfolio Alexa Rise](https://frontend200tb.github.io/rsschool2022pre/portfolio/)**
 * **[Scooter](https://frontend200tb.github.io/scooter/)**
 * **[eco-sounds](https://frontend200tb.github.io/rs2022-eco-sounds/)**
 * **[audio-player](https://frontend200tb.github.io/rsschool2022pre/audio-player/)**
@@ -126,15 +129,16 @@ namespace dsr1 {
 
 ## Education
 
-Voronezh State Technical University
+State Technical University
 
 Faculty of Radio Engineering and Electronics
 
 
 ## Courses
 
-* **[RSSchool JavaScript/Front-end 2022 Pre-school](https://rs.school/js-stage0/)**
-* **[RSSchool JavaScript/Front-end 2023 Pre-school](https://rs.school/js-stage0/)**
+* **[RSSchool JavaScript/Front-end 2022 Pre-school](https://rs.school/courses/javascript-preschool-ru)**
+* **[RSSchool JavaScript/Front-end 2023 Pre-school](https://rs.school/courses/javascript-preschool-ru)**
+* **[RSSchool JavaScript/Front-end 2023](https://rs.school/courses/javascript-ru)**
 * **[DSR .NET Scho­ol 2023](https://ru.dsr-corporation.com/student/courses/dotnet-school/)**
 
 ***
@@ -144,6 +148,3 @@ Faculty of Radio Engineering and Electronics
 - English B1
 - Russian native
 - Serbian native
-- Bulgarian B1
-- Czech B1
-- ... and some more
