@@ -111,6 +111,7 @@ namespace dsr1 {
 
 ## Projects
 
+* **[Math](https://frontend200tb.github.io/math/)**
 * **[Library](https://frontend200tb.github.io/rsschool2023pre/library/)**
 * **[Portfolio Alexa Rise](https://frontend200tb.github.io/rsschool2022pre/portfolio/)**
 * **[Shelter](https://frontend200tb.github.io/rsschool2022q1/shelter/pages/main/)**
@@ -126,7 +127,7 @@ namespace dsr1 {
 
 ## Education
 
-Voronezh State Technical University
+State Technical University
 
 Faculty of Radio Engineering and Electronics
 
@@ -144,6 +145,3 @@ Faculty of Radio Engineering and Electronics
 - English B1
 - Russian native
 - Serbian native
-- Bulgarian B1
-- Czech B1
-- ... and some more
